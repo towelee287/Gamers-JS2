@@ -1,0 +1,24 @@
+button {
+    cursor: pointer;
+}
+.product-item {
+    background-color: #cccccc;
+    padding: 10px;
+    margin: 20px 0; 
+}
+h3 {
+    text-decoration: underline;
+}
+.product-img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+}
+p {
+    font-size: 18px;
+}
+.by-btn {
+    width: 100px;
+    height: 50px;
+    background-color: rgb(250, 144, 0);
+}
