@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+//переменные
+$mcd: #ffffff; //main color design
+$acd: #f5f5f5; //additional color design
+$tcmb: #f44336; //text color main bright
+$tcm: #000000; //text color main
+$tc1: #ffffff; //text color 1
+$tc2: #999999; //text color 2
+
+$containerWidth: 1169px;
+
+@function pixRem($size) {
+    @return $size / 16px * 1rem;
+}
+
+@mixin size ($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+	width: 100%;
+}
+body {
+	font-family: 'Poppins', 'Roboto Condensed';
+	// max-width: pixRem($containerWidth);
+}
+.container {
+	margin: 0 auto;
+	max-width: $containerWidth;
+	padding: 0 15px;
+}
+@media (max-width: 1280px) {
+	.container {
+		max-width: 960px;
+	}
+}
+@media (max-width: 1024px) {
+	.container {
+		max-width: 720px;
+	}
+}
+@media (max-width: 768px) {
+	.container {
+		max-width: 640px;
+	}
+}
+@media (max-width: 650px) {
+	.container {
+		max-width: none;
+	}
+}
+
+a,
+button {
+	cursor: pointer;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.button {
+	@include size(140px, 40px);
+	background-color: $tcmb;
+	border: none;
+	color: $tc1;
+	font-size: 16px;
+}
+.h2 {
+	font-family: 'Poppins';
+	color: $tcmb;
+	font-size: 36px;
+	font-weight: 500;
+	line-height: 1;
+}
+.little_text {
+	color: $tc2;
+	font-family: 'Roboto Condensed';
+    font-weight: 300;
+	font-size: 14px;
+}
+.hidden {
+	display: none !important;
+}
