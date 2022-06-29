@@ -7,7 +7,7 @@
         "price": 10
     },
     {
-        "quantity": 5,
+        "quantity": 4,
         "id": 0,
         "img": "https://raw.githubusercontent.com/towelee287/picsHW/main/game1.jpg",
         "name": "Assassin's Creed: Rogue",
@@ -19,12 +19,5 @@
         "img": "https://raw.githubusercontent.com/towelee287/picsHW/main/game2.jpg",
         "name": "Tomb Raider",
         "price": 50
-    },
-    {
-        "quantity": -1,
-        "id": 2,
-        "img": "https://raw.githubusercontent.com/towelee287/picsHW/main/game3.jpg",
-        "name": "Ryse: Son Of Rome",
-        "price": 20
     }
 ]

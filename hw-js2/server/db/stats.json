@@ -428,5 +428,15 @@
         "time": "23 May 2022, 1:59:38 pm",
         "prod_name": "Assassin's Creed: Rogue",
         "action": "change"
+    },
+    {
+        "time": "29 Jun 2022, 5:51:09 pm",
+        "prod_name": "Ryse: Son Of Rome",
+        "action": "remove"
+    },
+    {
+        "time": "29 Jun 2022, 5:51:12 pm",
+        "prod_name": "Assassin's Creed: Rogue",
+        "action": "change"
     }
 ]
