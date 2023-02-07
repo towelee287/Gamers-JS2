@@ -1,0 +1,23 @@
+[
+    {
+        "quantity": 4,
+        "id": 3,
+        "img": "https://raw.githubusercontent.com/towelee287/picsHW/main/game4.jpg",
+        "name": "World Of Warcraft: Wrath Of The Litch King",
+        "price": 10
+    },
+    {
+        "quantity": 4,
+        "id": 0,
+        "img": "https://raw.githubusercontent.com/towelee287/picsHW/main/game1.jpg",
+        "name": "Assassin's Creed: Rogue",
+        "price": 30
+    },
+    {
+        "quantity": 1,
+        "id": 1,
+        "img": "https://raw.githubusercontent.com/towelee287/picsHW/main/game2.jpg",
+        "name": "Tomb Raider",
+        "price": 50
+    }
+]
